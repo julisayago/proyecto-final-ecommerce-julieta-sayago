@@ -1,0 +1,231 @@
+html {
+  background-color: #f3f0e0;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/*Header*/
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo {
+  padding-left: 29px;
+  padding-top: 5px;
+}
+
+nav {
+  flex-grow: 1;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  margin-right: 29px;
+  font-size: 1.25em;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/*Banner*/
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.texto-banner {
+  padding-left: 69px;
+  width: 39%;
+}
+
+.banner h1 {
+  font-size: 4em;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.banner p {
+  font-size: 1.25em;
+  font-weight: 300;
+  padding-top: 29px;
+  margin-top: 0;
+}
+
+.banner img {
+  padding-right: 10px;
+}
+
+/*Productos*/
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: white;
+  padding-bottom: 20px;
+}
+
+.productos h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+.producto {
+  width: 399px;
+  height: 501px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f3f0e0;
+  border-radius: 30px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.producto h3 {
+  font-size: 1.25em;
+  font-weight: 600;
+  text-align: left;
+}
+
+.producto p {
+  font-size: 1em;
+  font-weight: 400;
+  text-align: left;
+}
+
+/*Reseñas*/
+.reseñas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reseñas h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+.reseñas-contenido {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.contenedor-reseñas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+.reseña {
+  margin: 10px;
+  padding: 10px 10px 20px;
+  background-color: white;
+  text-align: center;
+  border-radius: 30px;
+  box-sizing: border-box;
+}
+
+.reseña h3 {
+  font-size: 1.875em;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.reseña p {
+  font-size: 1em;
+  font-weight: 400;
+  margin: 5px 0;
+}
+
+/*Contacto*/
+.contacto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: white;
+  padding-bottom: 40px;
+}
+
+.contacto h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+.contacto form {
+  width: 50%;
+  justify-content: center;
+}
+
+.contacto form label {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.contacto form input {
+  width: 80%;
+  padding: 15px;
+  border: none;
+  border-radius: 30px;
+  background-color: #f3f0e0;
+}
+
+.contacto form textarea {
+  width: 80%;
+  padding: 15px;
+  border: none;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  background-color: #f3f0e0;
+}
+
+.contacto form button {
+  padding: 10px 20px;
+  background-color: black;
+  color: #f3f0e0;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.contacto iframe {
+  border-radius: 30px;
+}
+
+/*Footer*/
+footer {
+  text-align: center;
+}
+
+.iconos-redes-sociales a {
+  color: #000;
+  padding: 20px;
+  font-size: 1.5em;
+}

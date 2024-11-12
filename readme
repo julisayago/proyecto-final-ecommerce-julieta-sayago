@@ -1,0 +1,24 @@
+# Lumi Skin
+
+## Descripción del Proyecto
+
+Lumi Skin es una página web dedicada a la promoción y venta de productos para el cuidado de la piel. La página está diseñada para ofrecer una experiencia de usuario agradable y fácil de navegar.
+
+## Estructura de la Página
+
+1. **Inicio**: Una sección de bienvenida con un banner que incluye una imagen y un mensaje sobre la importancia del cuidado de la piel.
+2. **Productos**: Una sección que muestra una variedad de productos para el cuidado de la piel, cada uno con una imagen, nombre y descripción breve.
+3. **Reseñas**: Una sección donde se pueden leer reseñas sobre los productos de Lumi Skin.
+4. **Contacto**: Una sección con un formulario de contacto y un mapa de Google Maps para mostrar la ubicación.
+
+## Tecnologías Utilizadas
+
+- **HTML5**: Para la estructura y el contenido de la página.
+- **CSS3**: Para el diseño y la presentación visual.
+- **Google Fonts**: Para la tipografía.
+- **Font Awesome**: Para los iconos de redes sociales.
+
+## Autor
+
+- **Nombre**: Julieta Delfina Sayago
+- **Correo Electrónico**: julysayago12@gmail.com
