@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lumi Skin</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/CSS/styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
@@ -15,6 +15,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
   </head>
+  <script src="script.js"></script>
+
   <body>
     <header>
       <div id="logo">
@@ -22,10 +24,10 @@
       </div>
       <nav>
         <ul>
-          <li><a href="#inicio">Inicio</a></li>
-          <li><a href="#productos">Productos</a></li>
-          <li><a href="#reseñas">Reseñas</a></li>
-          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="/productos.html">Productos</a></li>
+          <li><a href="/reseñas.html">Reseñas</a></li>
+          <li><a href="/contacto.html">Contacto</a></li>
         </ul>
       </nav>
     </header>
@@ -45,156 +47,6 @@
           src="./Assets/Mujer banner.png"
           alt="Mujer cuidando su piel con una mascarilla"
         />
-      </section>
-      <section class="productos" id="productos">
-        <h2>Productos</h2>
-        <div class="producto">
-          <img
-            src="./Assets/Producto1.png"
-            alt="Imagen del producto Clean Glow"
-          />
-          <h3>Clean Glow</h3>
-          <p>
-            Limpiador facial suave que elimina impurezas sin resecar la piel.
-          </p>
-        </div>
-        <div class="producto">
-          <img
-            src="./Assets/Producto2.png"
-            alt="Imagen del producto Hydra Boost"
-          />
-          <h3>Hydra Boost</h3>
-          <p>Tónico hidratante para refrescar y equilibrar la piel.</p>
-        </div>
-        <div class="producto">
-          <img
-            src="./Assets/Producto3.png"
-            alt="Imagen del producto Renew Night"
-          />
-          <h3>Renew Night</h3>
-          <p>
-            Crema de noche reparadora que mejora la textura mientras duermes.
-          </p>
-        </div>
-        <div class="producto">
-          <img
-            src="./Assets/Producto4.png"
-            alt="Imagen del producto Pure Radiance"
-          />
-          <h3>Pure Radiance</h3>
-          <p>Serum revitalizante para un aspecto luminoso y saludable.</p>
-        </div>
-        <div class="producto">
-          <img
-            src="./Assets/Producto5.png"
-            alt="Imagen del producto Daily Defense"
-          />
-          <h3>Daily Defense</h3>
-          <p>Crema de día que hidrata y protege de los agentes externos.</p>
-        </div>
-        <div class="producto">
-          <img
-            src="./Assets/Producto6.png"
-            alt="Imagen del producto Smooth Exfoliate"
-          />
-          <h3>Smooth Exfoliate</h3>
-          <p>Exfoliante suave para renovar la piel y dejarla tersa.</p>
-        </div>
-      </section>
-      <section id="reseñas" class="reseñas">
-        <h2>Reseñas</h2>
-        <div class="reseñas-contenido">
-          <div class="contenedor-reseñas">
-            <div class="reseña">
-              <h3>Carla R.</h3>
-              <p>
-                Perfecto para mi piel sensible. Probé muchos productos antes de
-                Lumi Skin y siempre me irritaban. Estos productos son suaves
-                pero efectivos; mi piel se siente calmada y saludable. Estoy
-                feliz de haber encontrado algo que realmente funciona.
-              </p>
-            </div>
-            <div class="reseña">
-              <h3>Laura G.</h3>
-              <p>
-                ¡Mi piel nunca se vio mejor!. Llevo usando Lumi Skin por tres
-                meses y los resultados son increíbles. Mi piel está más
-                hidratada y luminosa, y lo mejor es que es un cuidado simple y
-                efectivo. ¡Me encanta!
-              </p>
-            </div>
-            <div class="reseña">
-              <h3>Mariana L.</h3>
-              <p>
-                Se ha convertido en mi rutina favorita. Usar Lumi Skin es mi
-                momento de autocuidado. Me encanta la textura de los productos y
-                cómo dejan mi piel fresca y radiante. Es un cambio total, ¡ya no
-                puedo vivir sin ellos!
-              </p>
-            </div>
-            <div class="reseña">
-              <h3>Sofía M.</h3>
-              <p>
-                Resultados visibles desde la primera semana. Lumi Skin superó
-                mis expectativas. Desde la primera semana, noté mi piel más
-                suave y con un brillo natural. Además, es muy agradable de usar
-                y huele increíble.
-              </p>
-            </div>
-          </div>
-          <img
-            src="./Assets/Mujer reseñas.png"
-            alt="Mujer joven aplicando crema en su hombro"
-          />
-        </div>
-      </section>
-
-      <section class="contacto" id="contacto">
-        <h2>Contacto</h2>
-        <form
-          action="https://formsubmit.co/julysayago12@gmail.com"
-          method="POST"
-        >
-          <label for="firstname">Nombre</label>
-          <input
-            type="text"
-            name="firstname"
-            placeholder="Ingrese su nombre"
-            size="30"
-            required
-          />
-          <br />
-          <label for="lastname">Apellido</label>
-          <input
-            type="text"
-            name="lastname"
-            placeholder="Ingrese su apellido"
-            size="30"
-            required
-          />
-          <br />
-          <label for="mail">Correo electrónico</label>
-          <input
-            type="email"
-            name="mail"
-            placeholder="Ingrese su mail"
-            required
-          />
-          <br />
-          <label for="comentarios">Comentarios</label>
-          <textarea name="comentarios" rows="5" cols="30" required></textarea>
-          <br />
-          <button type="submit">Enviar</button>
-        </form>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3467.356515587572!2d-58.37056177796857!3d-34.616450574011274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3351cbd04daa5%3A0x6d84c28a6ce21945!2sHera%20centro%20de%20est%C3%A9tica%20facial%20y%20corporal!5e1!3m2!1ses!2sar!4v1731431781324!5m2!1ses!2sar"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
       </section>
     </main>
     <footer>

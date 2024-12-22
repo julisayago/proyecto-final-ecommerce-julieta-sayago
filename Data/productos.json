@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "nombre": "Clean Glow",
+        "precio": 1200,
+        "descripcion": "Clean Glow es un limpiador facial suave, ideal para su uso diario. Su fórmula enriquecida con extractos naturales limpia en profundidad, eliminando impurezas, aceites y residuos de maquillaje, dejándote la piel fresca, luminosa y rejuvenecida. Este limpiador no reseca, por lo que es perfecto para pieles normales a secas, y ayuda a restaurar el equilibrio natural de la piel sin alterar su barrera protectora, dejándola suave y preparada para los siguientes pasos de tu rutina.",
+        "imagen": "./Assets/Producto1.png"
+    },
+    {
+        "id": 2,
+        "nombre": "Hydra Boost",
+        "precio": 1200,
+        "descripcion": "Hydra Boost es un hidratante intensivo con ácido hialurónico, que proporciona una hidratación profunda y duradera. Su fórmula ligera se absorbe rápidamente, dejándote una sensación de suavidad y flexibilidad en la piel. Este producto está especialmente diseñado para pieles secas y deshidratadas, ayudando a restaurar el equilibrio de humedad, mejorar la elasticidad de la piel y reducir la aparición de líneas finas. Su acción hidratante se extiende durante todo el día, manteniendo tu piel fresca y revitalizada.",
+        "imagen": "./Assets/Producto2.png"
+    },
+    {
+        "id": 3,
+        "nombre": "Renew Night",
+        "precio": 1200,
+        "descripcion": "Renew Night es una crema de noche regeneradora que trabaja mientras duermes para revitalizar y reparar tu piel. Con su combinación de ingredientes antioxidantes y nutrientes esenciales, combate los signos del envejecimiento y mejora la elasticidad de la piel. Esta crema, ideal para pieles maduras o dañadas por factores ambientales, ayuda a restaurar la firmeza de la piel, mejorando su textura y proporcionando una apariencia más fresca y rejuvenecida cada mañana. Su acción profunda también combate los efectos del estrés y la fatiga sobre la piel.",
+        "imagen": "./Assets/Producto3.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Pure Radiance",
+        "precio": 1200,
+        "descripcion": "Pure Radiance es un sérum antioxidante concentrado que mejora la textura y luminosidad de la piel. Su potente fórmula combate los efectos del envejecimiento y la exposición al sol, restaurando una apariencia más radiante, uniforme y saludable. Este sérum es perfecto para pieles opacas o con manchas, ayudando a reducir la inflamación y el enrojecimiento, y promoviendo una piel más suave, luminosa y revitalizada. Su uso regular mejora visiblemente la claridad de la piel, brindando un tono más uniforme y radiante.",
+        "imagen": "./Assets/Producto4.png"
+    },
+    {
+        "id": 5,
+        "nombre": "Daily Defense",
+        "precio": 1200,
+        "descripcion": "Daily Defense es un protector solar ligero con SPF 50, diseñado para ofrecer una protección completa contra los daños del sol. Su fórmula no grasa no deja residuos, permitiendo que la piel respire mientras está protegida de los rayos UVA y UVB. Es ideal para todo tipo de piel, incluso las más sensibles, y es perfecto para el uso diario, protegiendo tu piel de los efectos del sol, la contaminación y otros factores ambientales. Su textura liviana y de rápida absorción hace que sea cómodo de usar a diario, manteniendo la piel protegida sin sensación pegajosa.",
+        "imagen": "./Assets/Producto5.png"
+    },
+    {
+        "id": 6,
+        "nombre": "Smooth Exfoliate",
+        "precio": 1200,
+        "descripcion": "Smooth Exfoliate es un exfoliante facial suave con partículas naturales que proporciona una limpieza profunda sin irritar la piel. Su fórmula suave elimina las células muertas, promoviendo la renovación celular y dejando la piel más suave, tersa y radiante. Ideal para pieles sensibles, este exfoliante ayuda a mejorar la textura de la piel sin causar sequedad ni enrojecimiento. Además, prepara la piel para la absorción de otros productos, dejándola lista para recibir tratamientos hidratantes y nutritivos.",
+        "imagen": "./Assets/Producto6.png"
+    }
+]
