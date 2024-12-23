@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function listProducts(productContainer) {
-    fetch('/Data/productos.json')
+    fetch('Data/productos.json')
         .then((response) => {
             console.log("Response:", response);
             if (!response.ok) {
