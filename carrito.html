@@ -15,8 +15,6 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
   </head>
-  <script src="script.js"></script>
-
   <body>
     <header>
       <div id="logo">
@@ -31,30 +29,21 @@
         </ul>
     </nav>
     <div id="carrito-icono">
-      <a href="carrito.html">
-          <i class="fas fa-shopping-cart"></i>
-          <span id="carrito-contador">0</span>
-      </a>
-  </div> 
-    </nav>
+        <a href="carrito.html">
+            <i class="fas fa-shopping-cart"></i>
+            <span id="carrito-contador">0</span>
+        </a>
+    </div> 
     </header>
-    <main>
-      <section class="banner" id="inicio">
-        <div class="texto-banner">
-          <h1>La mejor inversión es en tu piel</h1>
-          <p>
-            En Lumi Skin creemos que cada piel cuenta una historia y merece un
-            cuidado único. Creamos fórmulas pensadas para nutrir profundamente,
-            aportando luminosidad y frescura a cada aplicación. Transforma tu
-            rutina diaria en un momento especial con Lumi Skin, donde cada paso
-            es un recordatorio de que cuidar de ti es la mejor inversión.
-          </p>
-        </div>
-        <img
-          src="./Assets/Mujer banner.png"
-          alt="Mujer cuidando su piel con una mascarilla"
-        />
-      </section>
+    <section class="carrito" id="carrito">
+    <div>
+        <h2>Carrito de Compras</h2>
+        <ul id="lista-carrito"></ul>
+        <div id="precio-total"></div>
+        <button id="finalizar-compra">Finalizar Compra</button>
+        <button id="vaciar-carrito">Vaciar carrito</button>
+     </div>
+    </section>
     </main>
     <footer>
       <h3>Lumi Skin</h3>
@@ -74,5 +63,5 @@
     </footer>
     <script src="/JS/carrito.js"></script>
     <script src="/JS/script.js"></script>
-    </body>
+  </body>
 </html>

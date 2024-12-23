@@ -68,3 +68,5 @@ document.getElementById('close-modal').addEventListener('click', () => {
     const modal = document.getElementById('modal');
     modal.style.display = "none";
 });
+
+
